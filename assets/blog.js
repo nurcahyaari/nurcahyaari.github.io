@@ -89,3 +89,30 @@
     update()
   }
 })()
+
+// Share buttons: the system share sheet (phones, Safari, Edge) and "copy link".
+// They need JavaScript, so they stay hidden until it runs.
+;(function () {
+  var box = document.querySelector('.share-actions')
+  if (!box) return
+  var url = box.dataset.shareUrl || location.href.split('#')[0]
+
+  var native = box.querySelector('.share-native')
+  if (native && navigator.share) {
+    native.hidden = false
+    native.addEventListener('click', function () {
+      navigator.share({ title: box.dataset.shareTitle, text: box.dataset.shareText, url: url }).catch(function () {})
+    })
+  }
+
+  var copy = box.querySelector('.share-copy')
+  if (copy && navigator.clipboard) {
+    copy.hidden = false
+    copy.addEventListener('click', function () {
+      navigator.clipboard.writeText(url).then(function () {
+        copy.textContent = 'copied ✓'
+        setTimeout(function () { copy.textContent = 'copy link' }, 1800)
+      })
+    })
+  }
+})()

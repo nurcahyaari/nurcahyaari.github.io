@@ -388,6 +388,24 @@ a.tag:hover { color: var(--accent); border-color: var(--accent); }
 .footer a { color: var(--muted); text-decoration: none; }
 .footer a:hover { color: var(--accent); }
 
+/* Share */
+.share { margin-top: 3.5rem; padding-top: 1.75rem; border-top: 1px dashed var(--border); }
+.share-actions { display: flex; flex-wrap: wrap; gap: 0.5rem; }
+.share-btn {
+  padding: 0.3rem 0.75rem;
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  background: var(--surface);
+  color: var(--muted);
+  font: inherit;
+  font-size: 0.85rem;
+  text-decoration: none;
+  cursor: pointer;
+}
+.share-btn:hover { color: var(--accent); border-color: var(--accent); }
+.share-native, .share-copy { color: var(--text); }
+.share + .post-nav { margin-top: 2.5rem; }
+
 
 /* Site config */
 html:root[data-theme="light"]{--bg:#faf8f3;--surface:#f2eee5;--text:#2e2c29;--muted:#6b665c;--accent:#9a4f1f;--border:#e3ddd0;--code:#f4f3f0;}
