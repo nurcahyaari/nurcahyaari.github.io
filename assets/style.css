@@ -440,6 +440,38 @@ a.tag:hover { color: var(--accent); border-color: var(--accent-border); }
 .footer-links a:hover { color: var(--accent); }
 .copyright { margin: 0; color: var(--subtle); font-size: 0.75rem; }
 
+/* About */
+.about { max-width: 68ch; }
+.about-header { display: flex; flex-wrap: wrap; align-items: flex-start; gap: 1.5rem; }
+.about-avatar { width: 96px; height: 96px; border-radius: 50%; border: 1px solid var(--border); object-fit: cover; }
+.about-header > div { flex: 1; min-width: 16rem; }
+.about-type { margin: 0; color: var(--subtle); font-family: var(--font-mono); font-size: 0.8rem; }
+.about-header .post-title { margin-top: 0.4rem; }
+.about-facts { display: flex; flex-wrap: wrap; gap: 0.25rem 1.25rem; margin: 0.75rem 0 1rem; color: var(--muted); font-size: 0.875rem; }
+.about-facts:empty { display: none; }
+.about-facts a { color: inherit; }
+.about-bio { margin-top: 2.5rem; }
+.about-section { margin-top: 3rem; }
+.about-heading { margin: 0 0 1.25rem; color: var(--subtle); font-family: var(--font-mono); font-size: 0.75rem; font-weight: 500; letter-spacing: 0.08em; text-transform: uppercase; }
+.timeline { list-style: none; margin: 0; padding: 0 0 0 1.25rem; border-left: 1px solid var(--border); }
+.timeline li { position: relative; padding-bottom: 1.75rem; }
+.timeline li:last-child { padding-bottom: 0; }
+.timeline li::before {
+  content: "";
+  position: absolute;
+  left: calc(-1.25rem - 4px);
+  top: 0.4rem;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: var(--accent);
+  box-shadow: 0 0 0 3px var(--bg);
+}
+.timeline-date { margin: 0; color: var(--subtle); font-family: var(--font-mono); font-size: 0.75rem; }
+.timeline h3 { margin: 0.25rem 0 0; font-size: 1rem; font-weight: 600; }
+.timeline-org { color: var(--muted); font-weight: 500; }
+.timeline-text { margin: 0.4rem 0 0; color: var(--prose); font-size: 0.95rem; line-height: 1.7; }
+
 
 /* Site config */
 html:root[data-theme="light"]{--bg:#faf8f3;--surface:#f2eee5;--text:#2e2c29;--muted:#6b665c;--accent:#9a4f1f;--border:#e3ddd0;--code:#f4f3f0;}
