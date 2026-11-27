@@ -5,12 +5,12 @@ tags:
     - meta
     - markdown
 date: 2026-11-27T09:00:00Z
-updated: 2026-11-27T23:42:21.703552Z
+updated: 2026-11-27T23:52:10.818716Z
 ---
 
 Welcome to the new blog. Every post is a markdown file in this repo, written in the GitHub CMS editor and published by GitHub Actions.
 
-## Writing
+<img src="/uploads/2026/11/1795822541681.jpg" alt="" width="244">## Writing
 
 Write in **bold**, *italic*, ~~strikethrough~~ or `inline code`. Links look like [this one](https://github.com).
 
@@ -44,10 +44,6 @@ func greet(name string) string {
 | Tables | Yes |
 | Task lists | Yes |
 | Dark mode | Yes |
-
-## Image
-
-<img src="/uploads/2026/11/1795822541681.jpg" alt="" width="244">
 
 ## Wrapping up
 
