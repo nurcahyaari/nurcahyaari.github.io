@@ -27,7 +27,8 @@
       "text": "#2e2c29",
       "muted": "#6b665c",
       "accent": "#9a4f1f",
-      "border": "#e3ddd0"
+      "border": "#e3ddd0",
+      "code": "#f4f3f0"
     },
     "dark": {
       "bg": "#16181c",
@@ -35,7 +36,8 @@
       "text": "#d6d3cd",
       "muted": "#9a968e",
       "accent": "#e0a06a",
-      "border": "#2c3037"
+      "border": "#2c3037",
+      "code": "#181b20"
     }
   }
 }
