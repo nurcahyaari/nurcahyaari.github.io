@@ -17,6 +17,8 @@
   --grid: color-mix(in srgb, var(--border) 55%, transparent);
   --selection: color-mix(in srgb, var(--accent) 22%, transparent);
   --nav-bg: color-mix(in srgb, var(--bg) 90%, transparent);
+  /* Lifts the paper (posts, pages) off the grid. */
+  --paper-shadow: 0 1px 2px color-mix(in srgb, var(--text) 6%, transparent), 0 12px 32px -12px color-mix(in srgb, var(--text) 16%, transparent);
 
   --syntax-text: #2f332c;
   --syntax-keyword: #a3482f;
@@ -43,6 +45,9 @@
   --code: #151817;
 
   --prompt: #8cc9a0;
+
+  /* A dark page needs a darker, stronger shadow to show any lift. */
+  --paper-shadow: 0 1px 2px rgb(0 0 0 / 0.3), 0 14px 36px -12px rgb(0 0 0 / 0.6);
 
   --syntax-text: #cfcfc4;
   --syntax-keyword: #d98e73;
@@ -369,6 +374,16 @@ a.tag:hover { color: var(--accent); border-color: var(--accent); }
 @media (max-width: 34rem) { .post-nav { grid-template-columns: 1fr; } .post-nav-next { grid-column: 1; } }
 
 .progress { position: fixed; inset: 0 0 auto; z-index: 20; height: 2px; background: var(--accent); transform: scaleX(var(--progress, 0)); transform-origin: 0 50%; }
+
+/* Paper: posts, pages and the about page sit on a solid sheet laid over the grid. */
+.paper {
+  padding: 1.5rem 1.25rem;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  box-shadow: var(--paper-shadow);
+}
+@media (min-width: 40rem) { .paper { padding: 2.75rem 3rem; } }
 
 .page { margin-top: 1.5rem; }
 .page .prose { margin-top: 2rem; }
