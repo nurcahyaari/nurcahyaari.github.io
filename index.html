@@ -1,179 +1,22 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ari Nurcahya's Profile</title>
-    <style>
-        /* html {
-            scroll-snap-type: y mandatory;
-        }
-        .snap {
-            scroll-snap-align: start;
-        } */
-
-        .nav {
-            position: fixed;
-        }
-
-        .active {
-            display: block;
-        }    
-    </style>
-    <link rel="stylesheet" href="dist/style.css">
-</head>
-<body>
-    <div class="container mx-auto">
-        <header class="p-4 pb-0 md:pb-4 sm:display-none md:display-none xl:block lg:block">
-            <!-- Global navigation -->
-            <nav class="flex items-end flex-row justify-end">
-              <ul class="list-reset md:flex md:items-center">
-                <li class="md:ml-4">
-                  <a class="block no-underline hover:underline py-2 text-grey-darkest hover:text-black md:border-none md:p-0" href="#">
-                    Home
-                  </a>
-                </li>
-                <li class="md:ml-4">
-                  <a class="border-t block no-underline hover:underline py-2 text-grey-darkest hover:text-black md:border-none md:p-0" href="#">
-                    About
-                  </a>
-                </li>
-                <li class="md:ml-4">
-                  <a class="border-t block no-underline hover:underline py-2 text-grey-darkest hover:text-black md:border-none md:p-0" href="#">
-                    Technology I love
-                  </a>
-                </li>
-                <li class="md:ml-4">
-                    <a class="border-t block no-underline hover:underline py-2 text-grey-darkest hover:text-black md:border-none md:p-0" href="#">
-                      Education
-                    </a>
-                </li>
-                <li class="md:ml-4">
-                    <a class="border-t block no-underline hover:underline py-2 text-grey-darkest hover:text-black md:border-none md:p-0" href="#">
-                      Experience
-                    </a>
-                </li>
-              </ul>
-            </nav>
-            <!-- END Global navigation -->
-        </header>
-
-        <div class="flex h-screen items-center text-center snap">
-            <div class="flex-row flex-1 items-center">
-                <p class="text-center text-4xl">Ari Nurcahya</p>
-                <p class="text-center text-1xl">Coolest Software Engineer in my home, who love a simplicity</p>
-            </div>
-        </div>
-        <div class="flex h-screen items-center text-center snap">
-            <div class="flex-row flex-1 items-center">
-                <p class="text-center text-4xl">About Me</p>
-                <p class="text-center text-1xl">
-                    Hello my name Ari Nurcahya. <br>
-                    I love computer since I was in Junior High School. <br>
-                    My first trouble with computer when I got "botmngr is missing", so i learn how to reinstall my operating system. <br>
-                    after that I keep to research and learning. so I know how to repair computer 😗😗<br>
-                    sometimes in some event, I watch a news in Television, in that news inform me about a younger man from my country was created a computer antivirus and sell it <br>
-                    so I know computer software is made using programming language, <br>
-                    before that I think computer software automaticaly created when computer company creating a new computer hahaha 😂😂.. <br>
-                    My first programming languange is C++, I learn it from a book. and I think, I can make an application when I was learn C++ <br>
-                </p>
-            </div>
-        </div>
-        <div class="flex flex-wrap h-screen items-center snap">
-            <div class="flex-row flex-1 items-center">
-                <p class="text-center text-4xl">Love it</p>
-            </div>
-            <div class="grid grid-cols-3 sm:grid-cols-3 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-4 gap-4 items-center">
-                <div class="p-6 content-center">
-                    <img class="mx-auto items-center justify-center content-center" src="dist/assets/images/nodejs.png">
-                </div>
-                <div class="p-6">
-                    <img class="mx-auto" src="dist/assets/images/js.png">
-                </div>
-                <div class="p-6">
-                    <img class="mx-auto" src="dist/assets/images/ts.png">
-                </div>
-                <div class="p-6">
-                    <img class="mx-auto" src="dist/assets/images/react.png">
-                </div>
-            </div>
-            <div class="flex-row flex-1 items-center">
-                <p class="text-center text-4xl">Learn it</p>
-            </div>
-            <div class="grid grid-cols-3 sm:grid-cols-3 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-4 gap-4 items-center">
-                <div class="p-6">
-                    <img class="mx-auto" src="dist/assets/images/golang.png">
-                </div>
-                <div class="p-6">
-                    <img class="mx-auto" src="dist/assets/images/flutter.png">
-                </div>
-            </div>
-        </div>
-
-        <div class="flex flex-wrap h-screen items-center text-center justify-center snap">
-            <p class="text-center text-4xl">Educational Life</p>
-            <div class="w-screen grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-4 gap-4">
-                <div class="p-6 content-center rounded-lg shadow-lg content-center">
-                    <p class="text-center text-2xl">SDN Sukaluyu IV</p>
-                    <p class="text-center">Informatika (2004 - 2010)</p>
-                </div>
-                <div class="p-6 content-center rounded-lg shadow-lg content-center">
-                    <p class="text-center text-2xl">SMPN 5 Karawang</p>
-                    <p class="text-center">Informatika (2010 - 2013)</p>
-                </div>
-                <div class="content-center rounded-lg shadow-lg content-center">
-                    <img class="items-center justify-center content-center" src="dist/assets/images/sma5krw.jpg">
-                    <div class="px-1 py-1">
-                        <p class="text-center text-2xl">SMAN 5 Karawang</p>
-                        <p class="text-center">Informatika (2013 - 2016)</p>
-                    </div>
-                </div>
-                <div class="content-center rounded-lg shadow-lg content-center">
-                    <img class="w-full" src="dist/assets/images/uad.jpg">
-                    <div class="px-1 py-1">
-                        <p class="text-center text-2xl">Universitas Ahmad Dahlan Yogyakarta</p>
-                        <p class="text-center">Informatika (2016 - now)</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        
-        <div class="flex flex-wrap h-screen items-center text-center justify-center snap">
-            <p class="text-center text-4xl">Experience</p>
-            <div class="w-screen grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-4 gap-4">
-                <div class="content-center rounded-lg shadow-lg content-center justify-between flex-1 flex-wrap flex flex-row">
-                    <div class="px-1 py-1">
-                        <p class="text-center text-2xl">Lecturer Asistance</p>
-                        <p class="text-center">working on creating competition app for gunungapipurba.com</p>
-                        <p class="text-center">April 2017 - June 2017</p>
-                    </div>
-                </div>
-                <div class="content-center rounded-lg shadow-lg content-center">
-                    <div class="px-1 py-1 justify-between">
-                        <p class="text-center text-2xl">Practicume Asistance</p>
-                        <p class="text-center">Basic Programming, Informatics Logic, Databases, Algorithm, Data Structure, Algorithm and Strategy, Web Programming, Oriented Object Programming, Natural Language Processing</p>
-                        <p class="text-center">Sept 2017 - now</p>
-                    </div>
-                </div>
-                <div class="content-center rounded-lg shadow-lg content-center justify-between flex-1 flex-wrap flex flex-row">
-                    <div class="px-1 py-1">
-                        <p class="text-center text-2xl">Freelance Project</p>
-                        <p class="text-center">working when I got a projects</p>
-                    </div>
-                </div>
-                <div class="content-center rounded-lg shadow-lg content-center justify-between flex-1 flex-wrap flex flex-row">
-                    <div class="px-1 py-1">
-                        <p class="text-center text-2xl">Developer at UNIQ</p>
-                        <p class="text-center">
-                            <a href="https://www.uniq.id/" class="text-blue-500 hover:text-blue-700">UNIQ</a> 
-                            official web
-                        </p>
-                        <p class="text-center">Nov 2018 - now</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <!-- Set the color mode before the first paint, so the page never flashes. -->
+    <script>
+      (function () {
+        var mode
+        try { mode = localStorage.getItem('theme') } catch (e) {}
+        var dark = mode === 'dark' || (mode !== 'light' && matchMedia('(prefers-color-scheme: dark)').matches)
+        document.documentElement.dataset.theme = dark ? 'dark' : 'light'
+      })()
+    </script>
+    <!--head-->
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
 </html>

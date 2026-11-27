@@ -1,0 +1,34 @@
+{
+  "title": "My Blog",
+  "description": "Notes on code, tools and things I learn.",
+  "author": "",
+  "avatar": "",
+  "links": [
+    { "label": "GitHub", "url": "https://github.com" }
+  ],
+  "layout": "list",
+  "pages": ["archive", "tags", "about"],
+  "fonts": {
+    "body": "Literata",
+    "heading": "Inter",
+    "mono": "JetBrains Mono"
+  },
+  "theme": {
+    "light": {
+      "bg": "#faf8f3",
+      "surface": "#f2eee5",
+      "text": "#2e2c29",
+      "muted": "#6b665c",
+      "accent": "#9a4f1f",
+      "border": "#e3ddd0"
+    },
+    "dark": {
+      "bg": "#16181c",
+      "surface": "#1e2126",
+      "text": "#d6d3cd",
+      "muted": "#9a968e",
+      "accent": "#e0a06a",
+      "border": "#2c3037"
+    }
+  }
+}

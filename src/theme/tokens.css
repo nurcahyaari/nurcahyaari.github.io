@@ -1,0 +1,48 @@
+/* Design tokens. The site config overrides colors and fonts at build time.
+   Any element with data-theme gets its own palette, so previews can show both modes. */
+:root, [data-theme="light"] {
+  --bg: #faf8f3;
+  --surface: #f2eee5;
+  --text: #2e2c29;
+  --muted: #6b665c;
+  --accent: #9a4f1f;
+  --border: #e3ddd0;
+
+  --font-body: "Literata", Georgia, serif;
+  --font-heading: "Inter", system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, monospace;
+
+  --fs-body: clamp(1.0625rem, 1rem + 0.25vw, 1.1875rem);
+  --measure: 42rem;
+  --radius: 10px;
+  --code-bg: color-mix(in srgb, var(--surface) 75%, var(--bg));
+  --selection: color-mix(in srgb, var(--accent) 22%, transparent);
+
+  /* Syntax colors: soft, low saturation */
+  --hl-keyword: #8b3f96;
+  --hl-string: #3d7a3d;
+  --hl-number: #a0522d;
+  --hl-comment: #8a857a;
+  --hl-title: #2f5f9a;
+  --hl-attr: #8a6416;
+
+  color-scheme: light;
+}
+
+[data-theme="dark"] {
+  --bg: #16181c;
+  --surface: #1e2126;
+  --text: #d6d3cd;
+  --muted: #9a968e;
+  --accent: #e0a06a;
+  --border: #2c3037;
+
+  --hl-keyword: #c9a0d6;
+  --hl-string: #a5c28b;
+  --hl-number: #e0a37a;
+  --hl-comment: #7d7a73;
+  --hl-title: #8fb4de;
+  --hl-attr: #d9b77a;
+
+  color-scheme: dark;
+}
