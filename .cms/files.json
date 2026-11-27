@@ -1,0 +1,14 @@
+[
+  "index.html",
+  "posts/hello-world.html",
+  "about.html",
+  "archive.html",
+  "tags.html",
+  "tags/meta.html",
+  "tags/markdown.html",
+  "404.html",
+  "assets/style.css",
+  "assets/blog.js",
+  "favicon.svg",
+  ".nojekyll"
+]
