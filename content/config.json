@@ -4,10 +4,17 @@
   "author": "",
   "avatar": "",
   "links": [
-    { "label": "GitHub", "url": "https://github.com" }
+    {
+      "label": "GitHub",
+      "url": "https://github.com"
+    }
   ],
-  "layout": "list",
-  "pages": ["archive", "tags", "about"],
+  "layout": "magazine",
+  "pages": [
+    "archive",
+    "tags",
+    "about"
+  ],
   "fonts": {
     "body": "Literata",
     "heading": "Inter",
