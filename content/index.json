@@ -1,0 +1,22 @@
+{
+  "posts": [
+    {
+      "slug": "hello-world",
+      "title": "Hello, world",
+      "summary": "The first post on this blog, and a tour of what markdown can do here.",
+      "tags": [
+        "meta",
+        "markdown"
+      ],
+      "date": "2026-11-27T09:00:00Z",
+      "updated": "2026-11-27T23:37:01.926583Z"
+    }
+  ],
+  "pages": [
+    {
+      "slug": "about",
+      "title": "About",
+      "date": "2026-11-27T09:00:00Z"
+    }
+  ]
+}

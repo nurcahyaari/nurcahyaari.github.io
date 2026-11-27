@@ -2,18 +2,17 @@
 title: Hello, world
 summary: The first post on this blog, and a tour of what markdown can do here.
 tags:
-  - meta
-  - markdown
+    - meta
+    - markdown
 date: 2026-11-27T09:00:00Z
+updated: 2026-11-27T23:37:01.926583Z
 ---
 
-Welcome to the new blog. Every post is a markdown file in this repo, written in the
-GitHub CMS editor and published by GitHub Actions.
+Welcome to the new blog. Every post is a markdown file in this repo, written in the GitHub CMS editor and published by GitHub Actions.
 
 ## Writing
 
-Write in **bold**, *italic*, ~~strikethrough~~ or `inline code`. Links look like
-[this one](https://github.com).
+Write in **bold**, *italic*, ~~strikethrough~~ or `inline code`. Links look like [this one](https://github.com).
 
 > Good writing is clear thinking made visible.
 
@@ -27,6 +26,7 @@ Write in **bold**, *italic*, ~~strikethrough~~ or `inline code`. Links look like
 2. Lists too
 
 - [x] Task lists
+
 - [ ] Still to do
 
 ## Code
@@ -39,13 +39,14 @@ func greet(name string) string {
 
 ## Tables
 
-| Feature        | Supported |
-| -------------- | --------- |
-| Tables         | Yes       |
-| Task lists     | Yes       |
-| Dark mode      | Yes       |
+| Feature | Supported |
+| --- | --- |
+| Tables | Yes |
+| Task lists | Yes |
+| Dark mode | Yes |
 
+## Image
 
-## Wrapping up
+![](/uploads/2026/11/1795822541681.jpg)## Wrapping up
 
 That's all for now. Edit or delete this post from the admin.
