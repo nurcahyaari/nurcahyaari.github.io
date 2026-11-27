@@ -5,7 +5,7 @@ tags:
     - meta
     - markdown
 date: 2026-11-27T09:00:00Z
-updated: 2026-11-27T23:37:01.926583Z
+updated: 2026-11-27T23:42:21.703552Z
 ---
 
 Welcome to the new blog. Every post is a markdown file in this repo, written in the GitHub CMS editor and published by GitHub Actions.
@@ -47,6 +47,8 @@ func greet(name string) string {
 
 ## Image
 
-![](/uploads/2026/11/1795822541681.jpg)## Wrapping up
+<img src="/uploads/2026/11/1795822541681.jpg" alt="" width="244">
+
+## Wrapping up
 
 That's all for now. Edit or delete this post from the admin.
