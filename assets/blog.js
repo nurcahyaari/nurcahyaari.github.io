@@ -2,7 +2,8 @@
 // table of contents highlight and reading progress.
 (function () {
   var root = document.documentElement
-  var media = matchMedia('(prefers-color-scheme: dark)')
+  // Dark is the default; "system" only switches to light when the reader's system asks for it.
+  var media = matchMedia('(prefers-color-scheme: light)')
 
   // Color mode: system, light or dark. Previews force a mode, so skip them.
   var toggle = document.querySelector('.theme-toggle')
@@ -15,8 +16,8 @@
         if (mode === 'system') localStorage.removeItem('theme')
         else localStorage.setItem('theme', mode)
       } catch (e) {}
-      var dark = mode === 'dark' || (mode === 'system' && media.matches)
-      root.dataset.theme = dark ? 'dark' : 'light'
+      var light = mode === 'light' || (mode === 'system' && media.matches)
+      root.dataset.theme = light ? 'light' : 'dark'
       toggle.dataset.mode = mode
       toggle.setAttribute('aria-label', 'Color mode: ' + mode + '. Change')
     }
