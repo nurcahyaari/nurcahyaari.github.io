@@ -9,6 +9,8 @@
   "404.html",
   "assets/style.css",
   "assets/blog.js",
+  ".nojekyll",
   "favicon.svg",
-  ".nojekyll"
+  "favicon.ico",
+  "apple-touch-icon.png"
 ]
