@@ -5,12 +5,12 @@ tags:
     - meta
     - markdown
 date: 2026-11-27T09:00:00Z
-updated: 2026-11-27T23:52:10.818716Z
+updated: 2026-11-28T02:52:56.429996Z
 ---
 
-Welcome to the new blog. Every post is a markdown file in this repo, written in the GitHub CMS editor and published by GitHub Actions.
+Welcome to the new blog. Every post is a markdown file in this repo, written in the [GitHub CMS](https://github.com/nurcahyaari-lab/github-cms) editor and published by GitHub Actions.
 
-<img src="/uploads/2026/11/1795822541681.jpg" alt="" width="244">## Writing
+<img src="/uploads/2026/11/1795822541681.jpg" alt="" width="244">\## Writing
 
 Write in **bold**, *italic*, ~~strikethrough~~ or `inline code`. Links look like [this one](https://github.com).
 
