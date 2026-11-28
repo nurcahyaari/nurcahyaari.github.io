@@ -1,0 +1,57 @@
+{
+  "projects": [
+    {
+      "name": "Content-Based-Filtering",
+      "description": "Content based Filtering is a libary for calculate recommendation using content based filtering method. build on top of nodejs and typescript. using Naturaljs for solve the NLP Task",
+      "url": "",
+      "repo": "https://github.com/nurcahyaari/Content-Based-Filtering",
+      "image": "",
+      "stack": [
+        "TypeScript"
+      ],
+      "stars": 7,
+      "featured": false
+    },
+    {
+      "name": "golang-starter",
+      "description": "Golang code boilerplate inspired by clean architecture",
+      "url": "",
+      "repo": "https://github.com/nurcahyaari/golang-starter",
+      "image": "",
+      "stack": [
+        "Go",
+        "golang",
+        "rest-api",
+        "boilerplate"
+      ],
+      "stars": 304,
+      "featured": false
+    },
+    {
+      "name": "coma",
+      "description": "Configuration manager on the air",
+      "url": "",
+      "repo": "https://github.com/nurcahyaari/coma",
+      "image": "",
+      "stack": [
+        "Go"
+      ],
+      "stars": 1,
+      "featured": false
+    },
+    {
+      "name": "Github CMS",
+      "description": "A small CMS for a personal blog on GitHub Pages.",
+      "url": "https://nurcahyaari.github.io/",
+      "repo": "https://github.com/nurcahyaari-lab/github-cms",
+      "image": "",
+      "stack": [
+        "Golang",
+        "ReactJS",
+        "Github API"
+      ],
+      "stars": 0,
+      "featured": false
+    }
+  ]
+}
